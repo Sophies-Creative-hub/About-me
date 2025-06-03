@@ -1,4 +1,3 @@
-// src/components/ThesisSection.js
 import React from 'react';
 import { BookOpen, Zap, Brain } from 'lucide-react'; // Zap für Energie/Physik, Brain für Neuromorphic
 
