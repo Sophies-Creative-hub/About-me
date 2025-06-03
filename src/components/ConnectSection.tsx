@@ -1,6 +1,6 @@
-// src/components/ConnectSection.js
+
 import React from 'react';
-import { Github, Linkedin, Sparkles } from 'lucide-react'; // Sparkles für einen positiven Abschluss
+import { Github, Linkedin, Sparkles } from 'lucide-react'; 
 
 const ConnectSection = () => {
   return (
@@ -63,9 +63,9 @@ const ConnectSection = () => {
           
           <div className="text-center">
             <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-              {/* ERSETZE DIE URLs MIT DEINEN PROFILEN! */}
+
               <a 
-                href="https://github.com/Sophies-Creative-hub" // DEIN GITHUB LINK
+                href="https://github.com/Sophies-Creative-hub" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="group flex items-center justify-center gap-2 px-8 py-3 bg-white/10 rounded-full text-lg text-white font-semibold transition-all duration-300 hover:bg-white/20 hover:shadow-lg w-full sm:w-auto"
@@ -74,8 +74,7 @@ const ConnectSection = () => {
                 GitHub
               </a>
               <a 
-                href="https://www.linkedin.com/in/sophie-ischenko/" // DEIN LINKEDIN LINK
-                target="_blank" 
+                href="https://www.linkedin.com/in/sophie-ischenko/"
                 rel="noopener noreferrer" 
                 className="group flex items-center justify-center gap-2 px-8 py-3 bg-white/10 rounded-full text-lg text-white font-semibold transition-all duration-300 hover:bg-white/20 hover:shadow-lg w-full sm:w-auto"
               >
