@@ -1,4 +1,3 @@
-// src/components/FAQSection.js
 import React from 'react';
 import { Heart, Music, MapPin, User, Quote } from 'lucide-react';
 
