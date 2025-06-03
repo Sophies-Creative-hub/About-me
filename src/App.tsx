@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import './index.css'; // oder wie deine CSS-Datei heißt
+import './index.css'; 
 
 import Navigation from './components/Navigation.js';
 import HeroSection from './components/HeroSection.js';
@@ -54,7 +54,6 @@ function App() {
 
   
   
-  // Angepasste Navigations-IDs und Labels
   const navItems = [
     { id: 'hero', label: 'Start' },
     { id: 'study', label: 'Studium' },
@@ -74,7 +73,7 @@ function App() {
         scrollToSection={scrollToSection} // <-- Weitergeben
       />
       
-      <HeroSection scrollToSection={scrollToSection} /> {/* <<-- HIER PROP HINZUFÜGEN */}
+      <HeroSection scrollToSection={scrollToSection} /> 
       <StudySection />
       <ThesisSection />
       <WorkIntroSection />
