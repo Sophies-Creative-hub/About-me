@@ -1,4 +1,3 @@
-// src/components/Navigation.js
 import React, { useState } from 'react';
 import { Sparkles } from 'lucide-react';
 
