@@ -1,4 +1,3 @@
-// src/components/StudySection.js
 import React from 'react';
 import { GraduationCap, BookOpen, Code, Globe, Brain } from 'lucide-react'; // Passende Icons
 
