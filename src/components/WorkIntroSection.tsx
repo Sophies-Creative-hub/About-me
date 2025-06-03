@@ -1,4 +1,3 @@
-// src/components/WorkIntroSection.js
 import React from 'react';
 import { Zap, Lightbulb, Cloud, Terminal, Presentation } from 'lucide-react';
 
