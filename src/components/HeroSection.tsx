@@ -42,7 +42,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToSection }) => {
           Von Tränen und Triumphen im Code zur kreativen Entfaltung
         </p>
         <button 
-          onClick={() => scrollToSection('study')} // Verwende die übergebene Funktion
+          onClick={() => scrollToSection('study')} 
           className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-500 ease-in-out bg-gradient-to-r from-fuchsia-600 to-pink-600 rounded-full hover:from-fuchsia-700 hover:to-pink-700 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-fuchsia-500"
         >
           Meine fachliche Reise entdecken
